@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Simple Discord WebHook API'
+copyright = '2024, everyofflineuser'
+author = 'everyofflineuser'
 
 release = '0.1'
 version = '0.1.0'
