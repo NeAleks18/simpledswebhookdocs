@@ -12,7 +12,7 @@
 
    Asset Store - Магазин ассетов(Готовых моделей, скриптов, т.п.) от Unity
 
-Заходим по ссылке: https://sdwhapy.neserver.space/
+Заходим по ссылке: https://sdwhapi.neserver.space/
 
 .. warning::
 
