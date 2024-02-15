@@ -1,34 +1,29 @@
-Usage
+Использование
 =====
 
 .. _installation:
 
-Installation
+Установка
 ------------
 
-To use Lumache, first install it using pip:
+Для использования API, вам нужен Asset Store:
 
-.. code-block:: console
+.. note::
 
-   (.venv) $ pip install lumache
+   Asset Store - Магазин ассетов(Готовых моделей, скриптов, т.п.) от Unity
 
-Creating recipes
+Заходим по ссылке: https://sdwhapy.neserver.space/
+.. warning::
+
+   Если ссылка не работает значит либо у нас неполадки либо ассет еще ны выложен, в любом случае напишите мне.
+
+Открываем файл с расширением .unitypackage и радуемся (Перед открытием у вас должен быть открыт проект)
+
+API
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+API будет в другой странице.
 
-.. autofunction:: lumache.get_random_ingredients
+.. toctree::
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   api
