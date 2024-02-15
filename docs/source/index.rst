@@ -1,17 +1,14 @@
-Welcome to Lumache's documentation!
+Добро пожаловать в Документацию Дискорд Вебхук API!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**sdwhapidocs** Это сокращение "Simle Discord WebHook API Docs"
+Мой API Позволяет без проблем новичкам в программировании, управлять вебхуком и взаимодействовать им.
+Пока что это бета API, Но в будущем я хочу его довести до конца и сделать из этого API Которым пользуются все новички в C# Unity.
+*Я сам пользуюсь своим API.*
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+.. warning::
 
-.. note::
-
-   This project is under active development.
+   Как я уже и говорил это бета API и бета Docs так что поправляйте меня, пишите мне о проблемах и т.п. Discord ID: 1026084150895202385
 
 Contents
 --------
