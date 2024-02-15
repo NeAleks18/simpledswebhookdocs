@@ -1,7 +1,15 @@
 API
-===
+=====
 
-.. autosummary::
-   :toctree: generated
+.. _sendmsg:
 
-   lumache
+Отправка сообщений
+------------
+
+.. code-block:: csharp
+   public void sss()
+
+API
+----------------
+
+API будет в другой странице.
