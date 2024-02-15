@@ -6,7 +6,8 @@ API
 Отправка сообщений
 ------------
 
-.. code-block:: csharp
+.. code-block:: console
+
    public void sss()
 
 API
