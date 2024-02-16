@@ -11,7 +11,7 @@ project = 'Simple Discord WebHook API'
 copyright = '2024, everyofflineuser'
 author = 'everyofflineuser'
 
-release = '0.1'
+release = '1.8'
 version = '0.1.0'
 
 # -- General configuration
