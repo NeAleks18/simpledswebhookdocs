@@ -1,31 +1,31 @@
-Использование
+Usage
 =====
 
 .. _installation:
 
-Установка
+Installation
 ------------
 
-Для использования API, вам нужен Asset Store:
+To use the API, you need an Asset Store:
 
 .. note::
 
-   Asset Store - Магазин ассетов(Готовых моделей, скриптов, т.п.) от Unity
+   Asset Store - Asset Store (Ready-made models, scripts, etc.) from Unity
 
-Заходим по ссылке: https://sdwhapi.neserver.space/
-
-.. warning::
-
-   Если ссылка не работает значит либо у нас неполадки либо ассет еще ны выложен, в любом случае напишите мне.
-
-Открываем файл с расширением .unitypackage и радуемся (Перед открытием у вас должен быть открыт проект)
+Go to the link: https://sdwhapi.neserver.space/
 
 .. warning::
 
-   Перед использованием не забудьте посетить файл DiscordWebhookAPI.cs потому что там нужно изменить ID и TOKEN
+   Go to the linkIf the link does not work it means either we have malfunctions or asset is not yet posted, in any case write to me.
 
-Как добыть ID и TOKEN?
-Давайте расмотрим ссылку которую нам дает дискорд при копироввании ссылки вебхука.
+Open the file with the extension .unitypackage and be happy (You must have a project open before opening it)
+
+.. warning::
+
+   Before using it, don't forget to visit the DiscordWebhookAPI.cs file because you need to change the ID and TOKEN there
+
+How to get ID and TOKEN?
+Let's take a look at the link that discord gives us when copying a webhook link.
 
 https://discord.com/api/webhooks/ID/TOKEN
 
@@ -33,4 +33,4 @@ https://discord.com/api/webhooks/ID/TOKEN
 API
 ----------------
 
-API будет в другой странице.
+The API will be in another page.
