@@ -1,18 +1,18 @@
-Добро пожаловать в Документацию Дискорд Вебхук API!
+Welcome to the Discord Webhook API Documentation!
 ===================================
 
-**sdwhapidocs** Это сокращение "Simle Discord WebHook API Docs"
-Данный API Позволяет без проблем новичкам в программировании, управлять вебхуком и взаимодействовать им.
-Пока что это бета API, Но в будущем я хочу его довести до конца и сделать из этого API Которым пользуются все новички в C# Unity.
-*Я сам пользуюсь своим API.*
+**sdwhapidocs** This is an acronym for "Simple Discord WebHook API Docs"
+This API Allows newbies in programming, to manage and interact with webhook without any problems.
+For now this is a beta API, But in the future I want to finalize it and make it an API that all C# Unity beginners can use.
+*I use my own API.*
 
 .. note::
 
-   ТРЕБОВАНИЯ: Newtonsoft.Json for Unity.
+   REQUIREMENTS: Newtonsoft.Json for Unity.
 
 .. warning::
 
-   Как я уже и говорил это бета API и бета Docs так что поправляйте меня, пишите мне о проблемах и т.п. Discord ID: 1026084150895202385
+   Like I said it's a beta API and beta Docs so please correct me, message me for problems, etc. Discord ID: 1026084150895202385
 
 Contents
 --------
