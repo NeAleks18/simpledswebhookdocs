@@ -3,80 +3,80 @@ API
 
 .. _start:
 
-Как пользоваться API?
+How to use the API?
 ------------
 
-Все очень просто, для этого просто добавте Empty (Create Empty) и добавте компонент (Скрипт) DiscordWebhookAPI. Это будет вашим контроллером API
+It's very simple, just add an Empty (Create Empty) and add the DiscordWebhookAPI component (Script). This will be your API controller
 
-А еще, забыл не забудьте добавить token and id через Inspector.
+Also, forgot to add token and id via Inspector.
 
 
 .. _sendmsg:
 
-Отправка сообщений
+Send Message
 ------------
 
 .. code-block:: csharp
 
    public void SendMessage(bool debug, string content, string username = null, string avatar_url = null, bool tts = false)
 
-Разберем функцию прямиком от кода самого API. 
+Let's understand the function directly from the API code itself. 
 
-ЧТО ЭТО, ПОЧЕМУ НЕКОТОРЫЕ ПЕРЕМЕННЫЕ УЖЕ ОБОЗНАЧЕНЫ...
-Не пугайтесь, это означает что это не важно и можно написать без обозначения.
+WHAT IT IS, WHY SOME VARIABLES ARE ALREADY LABELED...
+Don't be frightened, it means it's not important and can be written without labeling.
 
-А как мне перескочить username и изменить только avatar_url?
-Все очень легко, просто напишите null где string формат а где bool, ставите как в примере сверху, таким образом вы просто перескочите.
+And how do I jump username and change only avatar_url?
+It's very easy, just write null where string format and bool where bool, put as in the example above, that way you just jump.
 
-Почему нет EMBED?
-Пока что для меня это страшная вещь, в будущем это будет.
+Why no EMBED?
+For now it's a scary thing for me, in the future it will be.
 
-Что за bool debug?
-Это дебаг, то есть при вызове функции будет паралельно в консоли логи о неудачах или удачах
+What is the bool debug?
+This is debug, i.e. when you call the function, it will log failures or successes in the console in parallel
 
 .. note::
 
-   Рекомендую перед первым использованием API и вообще самого вашего скрипта использоавть сначало DEBUG чтобы выявлять проблемы.
+   I recommend that before using the API and your script itself for the first time, DEBUG should be used first to detect problems.
 
 .. _getmsg:
 
-Получение сообщения (От вебхука только)
+Receiving a message (From webhook only)
 ------------
 
 .. code-block:: csharp
 
    public string GetMessage(string msgid)
 
-Разберем функцию прямиком от кода самого API. 
+Let's break down the function directly from the API code itself. 
 
-Что такое msgid?
-msgid - MessageID, ID сообщения от вебхука, данные от которого нужно получить.
+What is msgid?
+msgid - MessageID, the ID of the message from the webhook whose data you want to retrieve.
 
-Как его использовать?
-Как переменную, он возвращает строку с JSON кодом от Дискорда.
+How do we use it?
+As a variable, it returns a string with the JSON code from Discord.
 
 .. _editmsg:
 
-Изменение сообщения (От вебхука только)
+Changing the message (From webhook only)
 ------------
 
 .. code-block:: csharp
 
    public void EditMessage(bool debug, string msgid, string content)
 
-Разберем функцию прямиком от кода самого API. 
+Let's analyze the function directly from the API code. 
 
-Стоп, а зачем разберать, вроде тут все понятно, все что тут есть мы разбрали ранее, если останутся вопросы пишите мне.
+Stop, why do we need to parse it, it seems to be clear, we have parsed everything here earlier, if you still have questions, write to me.
 
 .. _deletemsg:
 
-Удаление сообщения (От вебхука только)
+Deleting a message (From webhook only)
 ------------
 
 .. code-block:: csharp
 
    public void DeleteMessage(bool debug, string msgid)
 
-Разберем функцию прямиком от кода самого API. 
+Let's analyze the function directly from the code of the API itself. 
 
-Тут тоже все понятно, ну впринципе это все функции.
+Everything is clear here too, well, in principle, these are all functions.
