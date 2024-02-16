@@ -10,6 +10,17 @@ It's very simple, just add an Empty (Create Empty) and add the DiscordWebhookAPI
 
 Also, forgot to add token and id via Inspector.
 
+.. _archor:
+
+Archor's Names
+------------
+
+ArchorName, it's in the inspector.
+
+What is it and why?
+Anchor Names are Webhook Names roughly speaking, you can use them to identify webhooks and make multimanagers. This is very handy
+
+In TestAPI and Logging there is an example of how to use it.
 
 .. _sendmsg:
 
@@ -80,3 +91,15 @@ Deleting a message (From webhook only)
 Let's analyze the function directly from the code of the API itself. 
 
 Everything is clear here too, well, in principle, these are all functions.
+
+.. _destroy:
+
+Destroy Manager
+------------
+
+.. code-block:: csharp
+
+   public void Destroy()
+
+Why?
+It is necessary to remove managers that will no longer be needed, you need to optimize the game.
