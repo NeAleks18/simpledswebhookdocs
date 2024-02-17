@@ -29,7 +29,7 @@ ArchorName или же Якорные Имена, они есть в инспе�
 
 .. code-block:: csharp
 
-   public void SendMessage(bool debug, string content, string username = null, string avatar_url = null, bool tts = false)
+   public void SendMessage(bool debug, string content, string username = null, string avatar_url = null, bool tts = false, bool getmsgdata = false)
 
 Разберем функцию прямиком от кода самого API. 
 
@@ -44,6 +44,9 @@ ArchorName или же Якорные Имена, они есть в инспе�
 
 Что за bool debug?
 Это дебаг, то есть при вызове функции будет паралельно в консоли логи о неудачах или удачах
+
+Что такое getmsgdata?
+Это булеон, если вы хотите получать информацию о сообщении которого вы отправили, (ID, CHANNELID, etc..) то ставте его.
 
 .. note::
 
