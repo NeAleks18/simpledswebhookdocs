@@ -29,7 +29,7 @@ Send Message
 
 .. code-block:: csharp
 
-   public void SendMessage(bool debug, string content, string username = null, string avatar_url = null, bool tts = false)
+   public void SendMessage(bool debug, string content, string username = null, string avatar_url = null, bool tts = false, bool getmsgdata = false)
 
 Let's understand the function directly from the API code itself. 
 
@@ -44,6 +44,9 @@ For now it's a scary thing for me, in the future it will be.
 
 What is the bool debug?
 This is debug, i.e. when you call the function, it will log failures or successes in the console in parallel
+
+What is getmsgdata?
+It is a booleon, if you want to get information about the message you sent (ID, CHANNELID, etc...) then put it in.
 
 .. note::
 
